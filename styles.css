@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@font-face {
+	font-family: josefinSans;
+	src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
+}
+
+@font-face {
+	font-family: nanumMyeongjo;
+	src: url(../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf)
+}
+
+body {
+	font-family: josefinSans;
+}
+
+h1 {
+	font-family: nanumMyeongjo;
+	font-size: 64px;
+}
