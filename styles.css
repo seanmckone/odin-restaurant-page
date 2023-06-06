@@ -58,19 +58,20 @@ table {
 }
 
 body {
+	height: 100%;
+
 	font-family: josefinSans;
 	color: black;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 20px;
-	
+	justify-content: space-between;
 }
 
 h1 {
 	font-family: nanumMyeongjo;
-	font-size: 64px;
+	font-size: 70px;
 }
 
 a:visited, a:link, a:active {
@@ -82,7 +83,14 @@ a:hover {
 	color: black;
 }
 
-nav>ul{
+nav {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav ul {
   font-size: 40px;
 	font-weight: 200;
 
@@ -90,12 +98,81 @@ nav>ul{
 
 	display: flex;
 	justify-content: space-between;
-	
 }
 
 hr {
-	width: 800px;
+	width: 900px;
+	
 	border-top: 1px solid #DBDBDB;
 	border-bottom: 0px;
 	border-left: 0px;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 42px;
+	font-weight: 300;
+}
+
+p {
+	font-size: 35px;
+	font-weight: 300;
+}
+
+img {
+	width: 450px;
+}
+
+.home-content {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	/* TEMP */
+	margin-left: 230px;
+	margin-bottom: 150px;
+}
+
+.menu-content {
+	display: flex;
+	flex-direction: row;
+	height: 800px;
+	gap: 100px;
+	align-items: center;
+
+	/* TEMP */
+	margin-bottom: 200px;
+}
+
+.menu-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	text-align: right;
+
+	height: 100%;
+}
+
+.about-content {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	margin-bottom: 50px;
+}
+
+.chef-buddy {
+	margin-right: 460px;
+}
+
+.chef-girl {
+	margin-left: 400px;
+	text-align: right
+}
+
+.chef-description {
+	margin-left: -200px;
 }
