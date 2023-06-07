@@ -1,6 +1,7 @@
+
+// Dynamically generate the home page
 function loadHomePage() {
 
-  // Dynamically generate the home page
   const article = document.createElement("article");
   article.classList.add("home-content");
 
@@ -36,6 +37,7 @@ function loadHomePage() {
   article.appendChild(section4);
 
   return article;
+  
 }
 
 export default loadHomePage;

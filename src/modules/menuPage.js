@@ -1,6 +1,7 @@
+
+// Dynamically generate the menu page
 function loadMenuPage() {
 
-  // Dynamically generate the home page
   const article = document.createElement("article");
   article.classList.add("menu-content");
 
@@ -38,6 +39,7 @@ function loadMenuPage() {
   article.appendChild(menuList);
 
   return article;
+  
 }
 
 export default loadMenuPage;

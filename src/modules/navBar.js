@@ -1,6 +1,7 @@
+
+// Dynamically generate the navbar
 function loadNavBar() {
 
-  // Dynamically generate the navbar
   const nav = document.createElement("nav");
 
   const navUl = document.createElement("ul");
@@ -35,6 +36,7 @@ function loadNavBar() {
   nav.appendChild(hr);
 
   return nav;
+
 }
 
 export default loadNavBar;
