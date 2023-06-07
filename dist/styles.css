@@ -57,7 +57,7 @@ table {
 	src: url(../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf)
 }
 
-body {
+#content {
 	height: 100%;
 
 	font-family: josefinSans;
