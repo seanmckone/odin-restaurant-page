@@ -74,13 +74,10 @@ h1 {
 	font-size: 70px;
 }
 
-a:visited, a:link, a:active {
+li {
 	text-decoration: none;
 	color: #9C9C9C;
-}
-
-a:hover {
-	color: black;
+	cursor: pointer;
 }
 
 nav {
