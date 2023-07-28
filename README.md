@@ -1,4 +1,4 @@
 # odin-restaurant-page
 Dynamically rendered restaurant page for The Odin Project
 
-https://sdmckone.github.io/odin-restaurant-page/
+https://seanmckone.github.io/odin-restaurant-page/
